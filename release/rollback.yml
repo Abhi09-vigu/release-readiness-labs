@@ -1,9 +1,2 @@
-rollback_strategy: "automated-rolling-rollback"
-target_version: "v2.2.0"
-execution:
-  trigger: "health_check_failure_or_unhealthy_pods"
-  script: "scripts/rollback.sh"
-  command: "kubectl rollout undo deployment/lab-app"
-monitoring:
-  evaluation_window: "5m"
-  error_threshold_percentage: 1
+rollback_strategy: 
+target_version: 

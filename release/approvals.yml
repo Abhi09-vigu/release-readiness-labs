@@ -1,14 +1,3 @@
-approvedBy: "DevOps Lead"
-reviewDate: "2026-09-28"
-releaseManager: "Release Manager"
-status: "approved"
-environment: "production"
-signOff:
-  qaLead: "QA Automation Team"
-  securityLead: "AppSec Team"
-checklist:
-  securityAudit: "passed"
-  testValidation: "passed"
-  secretSanitization: "passed"
-  infrastructureApproved: "passed"
-  rollbackPlanVerified: "passed"
+approvedBy: 
+reviewDate: 
+releaseManager: 
